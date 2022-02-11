@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Demo</title>
+    <meta charset="UTF-8"> <!-- optional-->
+    <meta name="keywords" content="put imp words of ur web page here">
+    <meta name="description" content="put short description about ur web page here">
+    <meta name="author" content="put author name of this website here">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .error{
+            color:red;
+            font-weight: bold;
+        }
+        #regForm{
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('https://images.unsplash.com/photo-1597216148867-c934590e6ea3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGdyZWVuJTIwbGVhZnklMjB2ZWdldGFibGVzfGVufDB8fDB8fA%3D%3D&w=1000&q=80');
+            background-size: cover;
+        }
+        #rForm{
+            border: 2px solid #bab7af;
+            border-radius: 20px;
+            padding-left: 80px;
+            padding-right: 80px;
+            padding-bottom: 30px;
+            background-color: white;
+        }
+        .caption{
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .labelNames{
+            color: #36332d;
+            font-weight: 600;
+        }
+        .labelBox{
+            border-radius: 10px;
+            height: 30px;
+            margin-top: 7px;
+            margin-bottom: 10px;
+            border: 2px solid #918f8c;
+            width: 200px;
+        }
+        .formBtn{
+            background-color: #5bd46b;
+            border: 1px solid;
+            border-radius: 6px;
+            color: white;
+            font-weight: bold;
+            height: 40px;
+            width: 80px;
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+        .loginLink{
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 20px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <section id="regForm">
+        <form action="project.html" id="rForm" novalidate>
+            <h2 class="caption">Log In</h2>
+            <div>
+                <label for="fname" class="labelNames">Name</label><br>
+                <input id="fname" name="name" class="labelBox"/><br>
+                <span id="error1" class="error"></span>
+            </div>
+            <div>
+                <label class="labelNames">Mobile Number</label><br>
+                <input type="tel" id="mobile" class="labelBox"/><br>
+                <span id="error2" class="error"></span>
+            </div>
+            <div>
+                <label class="labelNames">Enter your Email id</label><br>
+                <input type="email" id="emailId" class="labelBox"><br>
+                <span id="error3" class="error"></span>
+            </div>
+            <div>
+                <label for="pass1" class="labelNames">Create Password</label> <br>
+                <input type="password" id="pass1" class="labelBox"/> <br>
+                <span id="error4" class="error"></span>
+            </div>
+            <div>
+                <label for="pass2" class="labelNames">Confirm Password</label><br>
+                <input type="password" id="pass2" class="labelBox"/> <br>
+                <span id="error5" class="error"></span> 
+            </div>
+            <input type="checkbox" id="showp"/><label for="showp" class="labelNames">Show Password</label><br><br>
+            <input type="submit" value="Log in" class="formBtn"/> <input type="reset" class="formBtn"/> <br>
+            <span class="loginLink">Go to <a href="project.html">Home</a></span>
+        </form>
+</section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="project.js"></script>
+</body>
+</html>

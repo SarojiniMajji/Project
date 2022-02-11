@@ -1,0 +1,182 @@
+body{
+    margin: 0px;
+}
+.iconContainer{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.navBar{
+    background-color: aliceblue;
+    width: 100%;
+    height: 60px;
+    top: 0px;
+    position: fixed;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navItems{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+}
+.navItems:hover{
+    color: #963853;
+}
+.navItemsContainer{
+    margin-right: 20px;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.customButton {
+    color: white;
+    background-image: linear-gradient(#d0b200, #a58d00);
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.fpageBackground{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin-top: 30px;
+    position: static;
+    justify-content: center;
+    background-image: url('https://media.istockphoto.com/photos/various-leafy-vegetables-picture-id512993458?k=20&m=512993458&s=612x612&w=0&h=Tgdslar9lwnRouGZ0oPe7GkeNRYDEWUEK_ASMP2VK2M=');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.fpageContainer{
+    background-color: white;
+    border-radius: 25px;
+    width: 50%;
+    text-align: left;
+    padding: 20px;
+}
+.fpageSpan1{
+    font-size: 30px;
+    color: red;
+    font-style: oblique; 
+    margin-right: 140px; 
+}
+.fpageSpan2{
+    color: #a5a8ad;
+}
+.leafyImg{
+    border-radius: 150px;
+    margin-right: 70px;
+    height: 400px;
+    width: 400px;
+}
+
+/* Menu Section */
+.menuPage{
+    padding: 20px;
+    padding-top: 70px;}
+.menuCardsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.menuHeading{
+    text-align: center;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    width: 25%;
+    margin: 15px;
+    box-shadow: 15px 15px 40px grey;
+    border: 5px solid;
+    border-image: url('https://c8.alamy.com/comp/DEA5PE/green-vegetables-and-dark-leafy-food-background-as-a-healthy-eating-DEA5PE.jpg') 20 round;
+
+}
+.imgName{
+    color: #048a87;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.buyNow{
+    color: #3d4747;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+/* follow section */
+.followUsSection {
+    background-color: white;
+    padding: 10px;
+}
+
+.followUsSectionHeading {
+    text-align: center;
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+.followUsIconMainContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.followUsIconContainer {
+    background-color: #faf7e8;
+    width: 50px;
+    height: 50px;
+    border-radius: 45px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 28px;
+}
+
+.iconSocial {
+    color: #d0b200;
+    font-size: 35px;
+}
+
+.footerSection {
+    background-color: #0d2436;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footerSectionMailId {
+    color: #959ead;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.footerSectionAddress {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.horizontalLine{
+    width: 90%;
+    height: 3px solid;
+}
